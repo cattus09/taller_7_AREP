@@ -17,7 +17,7 @@ public class Login {
             "admin", new User("admin", hashGenerator("admin"))
     ));
 
-
+ 
     public static void main(String[] args) {
         port(getPort());
         staticFiles.location("/public");

@@ -30,7 +30,7 @@ public class Login {
                 Session session = request.session(true);
                 session.attribute("username", username);
                 trust(getTrust(), getKeyPwd());
-                response.redirect("https://localhost:5001/mainpage");
+                response.redirect("https://ec2-54-224-82-150.compute-1.amazonaws.com:5001/mainpage");
                 return null;
             }
 
